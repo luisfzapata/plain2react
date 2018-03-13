@@ -1,0 +1,33 @@
+table
+{
+	width: 100px;
+}
+
+th 
+{
+	background: #273b47;
+	color: white;
+}
+
+th
+{
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-top: 10px;
+	padding-bottom:  10px;
+
+}
+
+td 
+{
+	padding: 20px;
+
+
+}
+
+table, td, th
+{
+	border:  1px solid #273b47;
+}
+
+
