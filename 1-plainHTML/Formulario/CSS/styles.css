@@ -1,6 +1,7 @@
 table
 {
 	width: 100px;
+
 }
 
 th 
@@ -21,7 +22,7 @@ th
 td 
 {
 	padding: 20px;
-
+	/* text-align: center; */
 
 }
 
@@ -30,4 +31,14 @@ table, td, th
 	border:  1px solid #273b47;
 }
 
+
+div
+{
+	align-self: center;
+}
+
+table td:nth-child(4) 
+{
+	text-align: center;
+}
 
