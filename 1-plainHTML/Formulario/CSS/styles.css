@@ -1,7 +1,7 @@
 table
 {
-	width: 100px;
-
+	width: 90%;
+	padding: 30px;
 }
 
 th 
@@ -26,19 +26,14 @@ td
 
 }
 
-table, td, th
+
+td, th
 {
 	border:  1px solid #273b47;
 }
 
-
-div
+table td
 {
-	align-self: center;
-}
+	text-align: left;
 
-table td:nth-child(4) 
-{
-	text-align: center;
 }
-
