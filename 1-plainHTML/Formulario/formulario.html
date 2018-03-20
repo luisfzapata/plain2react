@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Formulario</title>
+	<link rel="stylesheet" href="CSS/formstyles.css">
+</head>
+<body>
+	<header>
+		<h1>Este es mi Header</h1>
+	</header>
+
+	<form class="formulario">
+		
+		<div class="box">
+			<h2>Formulario</h2>
+			<label for="Pais">Pais</label>
+			<select id="Pais" name="Pais" autofocus>
+				<option>Seleccione</option>
+			    <option>Colombia</option>
+			    <option>Estados Unidos</option>
+			 </select>
+			
+			<label for="Mes">Mes</label>
+			<input type="text" required id="Mes" name="Mes" />
+
+			<label for="Nombre">Nombre</label>
+			<input type="text" required id="Nombre" name="Nombre" />
+
+			<label for="Fecha">Fecha</label>
+			<input type="text" required id="Fecha" name="Fecha" placeholder="MM/DD/AAAA" />
+			
+			<label for="Tipo">Tipo</label>
+			<select id="Tipo" name="Tipo" autofocus>
+				<option>Seleccione</option>
+			    <option>Religioso</option>
+			    <option>Nacional</option>
+			 </select>
+
+			<input type="submit" value="Enviar"/>
+		</div>
+	</form>
+
+	<footer>
+		<h1>Este es mi Footer</h2>
+	</footer>
+</body>
+</html>

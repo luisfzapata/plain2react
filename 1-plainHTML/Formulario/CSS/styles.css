@@ -1,7 +1,25 @@
+header
+{
+	border: 2px solid red;
+	margin-bottom: 5px;
+}
+
+section
+{
+	border: 2px solid skyblue;
+	margin-bottom: 5px;
+}
+
 table
 {
-	width: 90%;
-	padding: 30px;
+	width: 95%;
+	padding: 10px;
+	
+}
+
+footer
+{
+	border: 2px solid purple;
 }
 
 th 
@@ -37,3 +55,4 @@ table td
 	text-align: left;
 
 }
+
