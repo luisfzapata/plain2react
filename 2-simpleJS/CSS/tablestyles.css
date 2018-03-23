@@ -1,0 +1,17 @@
+table th 
+{
+	text-align: left;
+	border: 1px solid darkblue;
+	background-color: darkblue;
+	color: white;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+table td
+{
+	border: 1px solid blue;
+	padding-right: 10px;
+	padding-left: 10px;
+
+}
