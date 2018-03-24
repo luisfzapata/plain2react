@@ -1,3 +1,25 @@
+header
+{
+	border: 2px solid red;
+	margin-bottom: 5px;
+}
+
+section
+{
+	border: 2px solid skyblue;
+}
+
+footer
+{
+	border: 2px solid purple;
+}
+
+table
+{
+	padding-bottom: 10px;
+	width: 90%;
+}
+
 table th 
 {
 	text-align: left;
