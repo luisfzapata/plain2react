@@ -1,0 +1,51 @@
+header
+{
+	border: 2px solid blue;
+	margin-bottom: 5px;
+}
+
+Select
+{
+	border-radius: 10px;
+	margin-bottom: 5px;
+}
+
+form
+{
+	border: 2px solid black;
+	margin-bottom: 5px;
+	width: 50%;
+}
+
+footer
+{
+	border: 2px solid green;
+}
+
+input[type="submit"]
+{
+	margin-bottom: 20px;
+}
+
+.formulario
+{
+	display: flex;
+}
+
+.box
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.formulario label
+{
+	margin: 5px 0 5px 0;
+}
+
+
+.aviso
+{
+	font-size: 13px;
+	color: red;	
+}
